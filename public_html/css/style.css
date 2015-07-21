@@ -1,0 +1,159 @@
+/* 
+    Created on : 01-jul-2015, 18:15:02
+    Author     : Eduardo Tarancón Delgado
+
+0.RESET:
+=================================================*/
+@font-face{
+    font-family: Kristen;
+    src:url(fonts/Kristen-ITC.ttf);
+}
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+html,body{height: 100%;width:100%;}
+body{font-family:Kristen,sans-serif;}
+ul{list-style:none;}
+a{text-decoration:none;color:black;}
+
+/* 1. GENERAL
+=================================*/
+.portada{
+    height: 100%;
+    width: 100%;
+    background-image: url(img/portada_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top; 
+    background-attachment: fixed;
+   
+}
+.filtro{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.3);
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2em;
+    padding:50px;
+    letter-spacing: 0.2em;
+    word-spacing: 0.5em;
+    background-color: rgb(147,5,51);
+    color:#fff;
+    text-shadow: 5px 5px 8px black;
+}
+
+
+.col{
+    float: left; 
+}
+
+.col_60{width:60%};
+.col_40{width:40%;}
+
+.col_info{
+    height:400px;
+    background-color: #fff;
+    text-align: center;
+    
+    font-size: 1.4em;
+    word-spacing: 0.3em;
+    line-height:2em;
+    display: table;
+    vertical-align: middle;
+}
+
+.vertical{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+/* 2. PORTADA
+=================================*/
+header {
+    height: 100%;
+    /*background-image: url(../img/portada_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    background-attachment: fixed;*/
+    background-color: rgba(0,0,0,.4);
+}
+nav{
+   background-color: rgba(147,5,51,.90);
+   text-align: center;
+   overflow: hidden;
+   box-shadow: 0 5px 15px #7E2B29;
+}
+.col_40{width:40%;}
+
+nav ul{
+    display: inline-block;
+    padding-top: 5px;
+
+}
+
+nav ul li{
+   float:left;
+   font-size:1.2em;
+}
+nav ul li a{
+      color:#BFB0AE;
+      display: block;
+      padding: 10px 20px;
+}
+nav ul li:hover{
+    background-color: rgb(147,5,51);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px white,-1px -1px 2px white;
+}
+nav li a:hover{
+    color:#fff;
+}
+.dr{
+    position:absolute;
+    top:0;
+    right: 50px;
+    height: 25px;
+    width: 25px;
+    margin-top: 15px;
+    background-image: url(img/iconos/Facebook_logo_button_64.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo{
+    text-align: center;
+    color:rgb(147,5,51);
+    font-size: 3.5em;
+    font-weight: 700;
+    padding-top:100px;
+    text-shadow: 5px 5px 8px white;
+}
+
+/* 3. ABOUT
+=================================*/
+#about{
+    height: 2000px;
+    width: 100%;
+    background-color:#fff;
+    overflow: hidden;
+}
+
+#foto1{
+   height: 400px;
+   background-image: url(img/asado_2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+#foto2{
+   height: 400px;
+   background-image: url(img/chuletillas.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
